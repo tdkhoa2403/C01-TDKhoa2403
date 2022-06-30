@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Trần Đăng Khoa</title>
+</head>
+<body>
+    <div id="main">
+        <!-- Header -->
+        <header>
+            <div class="header-title">
+                <h1>Trang web đầu tiên</h1>
+            </div>
+            <div class="header-img">
+                <img src="./img/planets.gif" alt="planets">
+            </div>
+
+            <!-- Navigation -->
+            <nav class="header-nav">
+                <div class="nav-list">
+                    <ul>
+                        <li><a href="#">Footer</a></li>
+                        <li><a href="#">Sun</a></li>
+                        <li><a href="#">Gọi ngay</a></li>
+                        <li><a href="#">Lời chào</a></li>
+                        <li><a href="">Liên hệ</a></li>
+                    </ul>
+                </div>
+                <div class="search">
+                    <a href="#">Tìm kiếm</a>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Content -->
+        <content>
+            <!-- Left -->
+            <aside class="left">
+                <!-- First-section -->
+                <section id="first-content">
+                    <div class="first-content_title">
+                        <h2>Tiêu đề 01</h2>
+                    </div>
+                    <div class="first-content_desc">
+                        <p>Mô tả ngắn, Dec 7, 2025</p>
+                    </div>
+                    <div class="first-content_desc-content--first">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quisquam aliquam sapiente ducimus asperiores autem odio vel, perferendis incidunt, porro nam, minima ab? Consequuntur sint quam dignissimos minus est praesentium.</p>
+                    </div>
+                    <div class="first-content_img">
+                        <img src="./img/article01.jpg" alt="article">
+                    </div>
+                    <div class="first-content_desc-content--second">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis impedit ducimus necessitatibus deleniti? Eligendi fugit, dolores possimus placeat at magni ad, laudantium, numquam unde aspernatur reiciendis sapiente. Aspernatur, eligendi magnam.</p>
+                    </div>
+                </section>
+
+                <!-- Second-section -->
+                <section id="second-content">
+                    <div class="second-content_title">
+                        <h2>Tiêu đề 02</h2>
+                    </div>
+                    <div class="second-content_desc">
+                        <p>Mô tả ngắn, Dec 7, 2025</p>
+                    </div>
+                    <div class="second-content_table">
+                        <table border="1">
+                            <thead>
+                                <caption>Danh sách học viên tham gia Bug Sharing</caption>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th>Họ tên</th>
+                                    <th>Lớp</th>
+                                    <th>SDT</th>
+                                </tr>
+                                <tr>
+                                    <td>Vũ Đình Bảo</td>
+                                    <td>Tư duy và kĩ năng lập trình</td>
+                                    <td>0384004298</td>
+                                </tr>
+                                <tr>
+                                    <td>Lê Hồng Phúc</td>
+                                    <td>Lập trình web Front-end</td>
+                                    <td>0123456789</td>
+                                </tr>
+                                <tr>
+                                    <td>Đặng Minh Tân</td>
+                                    <td>Lập trình Back-end với NodeJs</td>
+                                    <td>null</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+
+                <!-- Third section -->
+                <section id="third-content">
+                    <div class="third-content_title">
+                        <h2>Tiêu đề 03</h2>
+                    </div>
+                    <div class="third-content_lis">
+                        <!-- Danh sách không có thứ tự -->
+                        <div class="unordered-list">
+                            <ul type="square">Các món có thể gọi 
+                                <li>Coffee</li>
+                                <li>Tea</li>
+                                <li>Coca cola</li>
+                            </ul>
+                            <ul>
+                                <li>Coffee</li>
+                                <li>Tea</li>
+                                <li>Coca cola</li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <!-- Danh sách có thứ tự -->
+                        <div class="ordered-list">
+                            <ol type="A">Các món có thể gọi 
+                                <li>Coffee</li>
+                                <li>Tea</li>
+                                <li>Coca cola</li>
+                            </ol>
+                            <ol type="1" start="4">
+                                <li>Coffee</li>
+                                <li>Tea</li>
+                                <li>Coca cola</li>
+                            </ol>
+                        </div>
+                        <hr>
+                        <!-- Danh sách mô tả -->
+                        <div class="desc-list">
+                            <dl>Coffee và Milk nghĩa là gì?
+                                <dt>
+                                    Coffee
+                                    <dd>
+                                        - Thức uống làm cho bạn phê
+                                    </dd>
+                                </dt>
+                                <dt>
+                                    Milk
+                                    <dd>
+                                        - Thức uống làm cho bạn khỏe
+                                    </dd>
+                                </dt>
+                            </dl>
+                        </div>
+                        <hr>
+                        <!-- Danh sách chi tiết -->
+                        <div class="all-list">
+                            <dl>Menu chi tiết hơn
+                                <dt>
+                                    <ul>
+                                        <li>Coffee</li>
+                                        <li>Tea
+                                            <dd>
+                                                <ul type="circle">
+                                                    <li>Black tea</li>
+                                                    <li>Green tea</li>
+                                                </ul>
+                                            </dd>
+                                        </li>
+                                        <li>Milk</li>
+                                    </ul>
+                                </dt>
+                            </dl>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Finally section -->
+                <section id="finally-content">
+                    <div class="finally-content_title">
+                        <h2>Đăng ký khóa học</h2>
+                    </div>
+                    <div class="finally-content_form">
+                        <!-- Form -->
+                    </div>
+                </section>
+            </aside>
+
+            <!-- Right -->
+            <aside class="right">
+                <div class="avatar">
+                    <div class="avatar-img">
+                        <img src="./img/avarta.png" alt="avatar">
+                    </div>
+                    <div class="avatar-name">
+                        <h3>Vũ Đình Bảo</h3>
+                    </div>
+                    <div class="avatar-desc">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita dolore esse recusandae unde quis ratione perspiciatis omnis sunt maxime corporis. Accusamus est officiis consectetur eligendi nesciunt quam maxime voluptate mollitia!</p>
+                    </div>
+                </div>
+                <div id="blog">
+                    <div class="blog-top">
+
+                    </div>
+                </div>
+            </aside>
+        </content>
+    </div>
+    <script src="./js/scripts.js"></script>
+</body>
+</html>
