@@ -15,22 +15,27 @@
                 <h1>Trang web đầu tiên</h1>
             </div>
             <div class="header-img">
-                <img src="./img/planets.gif" alt="planets">
+                <img src="./img/planets.gif" alt="planets" usemap="#workmap">
+                <map name="workmap">
+                    <area target="_blank" alt="sun_img" title="sun" href="./pages/sun.html" coords="79,125,2,-1" shape="rect">
+                    <area target="_blank" alt="mecur_img" title="mecur" href="./pages/mercur.html" coords="91,59,7" shape="circle">
+                    <area target="_blank" alt="venus_img" title="venus" href="./pages/venus.html" coords="125,58,11" shape="circle">
+                </map>
             </div>
 
             <!-- Navigation -->
             <nav class="header-nav">
                 <div class="nav-list">
                     <ul>
-                        <li><a href="#">Footer</a></li>
-                        <li><a href="#">Sun</a></li>
-                        <li><a href="#">Gọi ngay</a></li>
-                        <li><a href="#">Lời chào</a></li>
-                        <li><a href="">Liên hệ</a></li>
+                        <li><a href="#footer-page">Footer</a></li>
+                        <li><a href="./pages/sun.html">Sun</a></li>
+                        <li><a href="tel:+840816020416">Gọi ngay</a></li>
+                        <li><a href="#" onclick="alerts()">Lời chào</a></li>
+                        <li><a href="mailto: academy@kmin.edu.vn">Liên hệ</a></li>
                     </ul>
                 </div>
                 <div class="search">
-                    <a href="#">Tìm kiếm</a>
+                    <a href="http:\\google.com" target="_blank">Tìm kiếm</a>
                 </div>
             </nav>
         </header>
@@ -174,17 +179,17 @@
                 <!-- Finally section -->
                 <section id="finally-content">
                     <div class="finally-content_title">
-                        <h2>Đăng ký khóa học</h2>
+                        <h2 class="register">Đăng ký khóa học</h2>
                     </div>
                     <div class="finally-content_form">
-                        <!-- Form -->
+                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSevn96h9DiVPWt5dXdyJx_4S29PcmLAh5fKTKhksw2wvJoaXQ/viewform?embedded=true" frameborder="0"></iframe>
                     </div>
                 </section>
             </aside>
 
             <!-- Right -->
             <aside class="right">
-                <div class="avatar">
+                <div id="avatar">
                     <div class="avatar-img">
                         <img src="./img/avarta.png" alt="avatar">
                     </div>
@@ -192,16 +197,58 @@
                         <h3>Vũ Đình Bảo</h3>
                     </div>
                     <div class="avatar-desc">
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita dolore esse recusandae unde quis ratione perspiciatis omnis sunt maxime corporis. Accusamus est officiis consectetur eligendi nesciunt quam maxime voluptate mollitia!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur. Expedita dolore esse recusandae.</p>
                     </div>
                 </div>
                 <div id="blog">
                     <div class="blog-top">
-
+                        <h3>Bài mới</h3>
+                    </div>
+                    <div class="blog-audio">
+                        <audio controls>
+                            <source src="./media/audio.mp3">
+                        </audio>
+                    </div>
+                    <div class="blog-video">
+                        <video controls>
+                            <source src="./media/video.mp4">
+                        </video>
+                    </div>
+                </div>
+                <div id="story">
+                    <div class="story-title">
+                        <h3>Tin vắng</h3>
+                    </div>
+                    <div class="story-content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi praesentium ipsa illum corporis, voluptatem adipisci quidem nostrum distinctio ipsam, veritatis est itaque a consequuntur earum aspernatur repellat obcaecati assumenda molestias?</p>
+                    </div>
+                </div>
+                <div id="happy-birthday">
+                    <div class="happy-birthday_title">
+                        <h3>Chúc mừng năm mới :v</h3>
+                    </div>
+                    <div class="happy-birthday_img">
+                        <a href="https://kmin.edu.vn/"><img src="./img/noel.gif" alt="noel"></a>
+                    </div>
+                </div>
+                <div id="fanpage">
+                    <div class="fanpage-title">
+                        <h3>Theo dõi fanpage</h3>
+                        <div>
+                            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fkmin.academy%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                        </div>
+                    </div>
+                    <div class="fanpage-link_fanpage">
+                        <iframe src="" frameborder="0"></iframe>
                     </div>
                 </div>
             </aside>
         </content>
+        <footer id="footer-page">
+            <div class="footer">
+                <h2>Footer: Kmin Academy</h2>
+            </div>
+        </footer>
     </div>
     <script src="./js/scripts.js"></script>
 </body>

@@ -1,1 +1,3 @@
-alert("Kmin chào bạn!");
+function alerts() {
+    alert("Kmin chào bạn!");
+}
